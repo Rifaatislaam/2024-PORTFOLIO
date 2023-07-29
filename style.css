@@ -5,6 +5,7 @@
   padding: 0;
   outline: none;
   border: none;
+  list-style: none;
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -28,3 +29,55 @@ body {
   color: var(--text-color);
 }
 
+/* NAVIGATION SECTION DESIGN */
+
+.header {
+  width: 100%;
+  padding: 2rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 90;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.logo-image > img{
+  width: 4.2rem;
+  height: 4.2rem;
+  border:1px solid var(--main-color) ;
+  border-radius: 50%;
+}
+.logo-name {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.navigation a {
+  color: var(--text-color);
+  font-size: 1.7rem;
+  margin-left: 3.5rem;
+  font-weight: 500;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  color: var(--main-color);
+}
+
+#icon-menu {
+  color: var(--text-color);
+  font-size: 3.6rem;
+  cursor: pointer;
+  display: none;
+}
