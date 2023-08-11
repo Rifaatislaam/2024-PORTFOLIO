@@ -13,10 +13,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+*::selection {
+  color: #000;
+  background-color: #fff;
+}
+
 :root {
   --bg-color: #081b29;
   --main-color: #48e655;
-  /* --main-color: #00abf0; */
   --text-color: #ededed;
   --secund-bg-color: #112e42;
 }
