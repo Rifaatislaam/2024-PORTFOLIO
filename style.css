@@ -278,6 +278,9 @@ section {
   text-align: center;
   -webkit-text-stroke: 1px var(--text-color);
 }
+.about > .about-heading h1 > span {
+    -webkit-text-stroke: 1px var(--main-color);
+}
 /* { ABOUT-IMAGE DESIGN }  */
 
 .about-img {
