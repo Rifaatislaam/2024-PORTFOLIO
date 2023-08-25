@@ -334,10 +334,6 @@ section {
 
 
 /* EDUCTION SECTION DESIGN  */
-.education {
-  padding: 0 9%;
-}
-
 .education > .heading {
   margin-top: 5rem;
   font-size: 3.2rem;
@@ -349,5 +345,11 @@ section {
 }
 .education > .heading > span {
   -webkit-text-stroke: 1px var(--main-color);
+}
 
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9%;
 }
