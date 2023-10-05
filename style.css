@@ -595,3 +595,126 @@ section {
   letter-spacing: 1px;
   -webkit-text-stroke: 1px var(--main-color);
 }
+
+
+/* Contact section design */
+.contact {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background: var(--bg-color);
+}
+
+.contact > .heading {
+  margin-top: -3rem;
+  margin-bottom: 0rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: transparent;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px var(--text-color);
+}
+
+.contact > .heading > span {
+  -webkit-text-stroke: 1px var(--main-color);
+}
+
+.contact > .find {
+  text-align: center;
+  font-size: 2rem;
+  font-family: ;
+  color: var(--main-color);
+}
+
+.contact > .box {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 292px 292px 292px;
+  grid-template-rows: 90px 90px 90px;
+  gap: 2rem;
+}
+
+.contact > .box > .mini-box {
+  background-color: var(--secund-bg-color);
+  border-radius: 5px;
+  border-right: 2px solid var(--main-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact > .box > .mini-box:hover {
+  transform:scale(1.06);
+  z-index: 1;
+  transition: 0.5s;
+}
+.contact > .box > .mini-box > .icon {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.contact > .box > .mini-box > .content{
+  margin-left: 15px;
+}
+.contact > .box > .mini-box > .content > h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact > .box > .mini-box > .content > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.contact > .box > .mail {
+  border-color: #8c2242;
+}
+
+.contact > .box > .mini-box > .mail-icon {
+    color: #8c2242;
+
+}
+
+.contact > .box > .github {
+  border-color: #747474;
+}
+
+.contact > .box > .mini-box > .github-icon {
+  color: #747474;
+}
+
+.contact > .box > .discord {
+  border-color: #6e83cb;
+}
+
+.contact > .box > .mini-box > .discord-icon {
+  color: #6e83cb;
+}
+
+.contact > .box > .twitter {
+  border-color: #0071db;
+}
+
+.contact > .box > .mini-box > .twitter-icon {
+  color: #0071db;
+}
+
+.contact > .box > .linkedin {
+  border-color: #2867b2;
+}
+
+.contact > .box > .mini-box > .linkedin-icon {
+  color: #2867b2;
+}
+.contact > .box > .facebook {
+  border-color: #4b7de0;
+}
+
+.contact > .box > .mini-box > .facebook-icon {
+  color: #4b7de0;
+  
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: -30px;
+}
