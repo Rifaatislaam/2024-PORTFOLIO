@@ -537,3 +537,38 @@ section {
 .skills-column:nth-child(2) .skills-content > .progress:nth-child(4) .bar span {
   width: 55%;
 }
+
+
+/* WORK SECTION DESIGN */
+.works > .heading {
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: transparent;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px var(--text-color);
+}
+
+.works > .heading > span {
+  -webkit-text-stroke: 1px var(--main-color);
+}
+
+.works {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background: var(--secund-bg-color);
+}
+
+.works > .content {
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  color: transparent;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px var(--main-color);
+
+}
