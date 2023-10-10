@@ -596,7 +596,6 @@ section {
   -webkit-text-stroke: 1px var(--main-color);
 }
 
-
 /* Contact section design */
 .contact {
   min-height: auto;
@@ -622,7 +621,6 @@ section {
 .contact > .find {
   text-align: center;
   font-size: 2rem;
-  font-family: ;
   color: var(--main-color);
 }
 
