@@ -644,7 +644,7 @@ section {
 }
 
 .contact > .box > .mini-box:hover {
-  transform:scale(1.06);
+  transform: scale(1.06);
   z-index: 1;
   transition: 0.5s;
 }
@@ -653,7 +653,7 @@ section {
   margin-left: 20px;
 }
 
-.contact > .box > .mini-box > .content{
+.contact > .box > .mini-box > .content {
   margin-left: 15px;
 }
 .contact > .box > .mini-box > .content > h2 {
@@ -669,8 +669,7 @@ section {
 }
 
 .contact > .box > .mini-box > .mail-icon {
-    color: #8c2242;
-
+  color: #8c2242;
 }
 
 .contact > .box > .github {
@@ -710,7 +709,6 @@ section {
 
 .contact > .box > .mini-box > .facebook-icon {
   color: #4b7de0;
-  
 }
 
 .footer {
