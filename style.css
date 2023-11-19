@@ -639,12 +639,13 @@ section {
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .contact > .box > .mini-box:hover {
   transform: scale(1.06);
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .contact > .box > .mini-box > .icon {
   font-size: 50px;
@@ -709,8 +710,33 @@ section {
   color: #4b7de0;
 }
 
+/* FOOTER SECTION DESIGN */
+
 .footer {
   text-align: center;
   font-size: 15px;
   margin-bottom: -30px;
+}
+.small-nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-nav > ul > li {
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.small-nav > ul > li:hover {
+  transform: translateY(-10px);
+}
+.small-nav > ul > li > a {
+  color: #fff;
+  font-size: 15px;
+}
+
+.small-nav > ul > li > a:hover {
+  color: var(--main-color);
+  font-size: 15px;
+  transition: 0.5s;
 }
