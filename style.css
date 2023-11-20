@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
-/* UNIVERSAL SECTION DESIGN */
-
+/*+++++++++++++++++++++++++++
+ UNIVERSAL SECTION DESIGN 
+ ++++++++++++++++++++++++++++*/
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,9 @@ body {
   color: var(--text-color);
 }
 
-/* NAVIGATION SECTION DESIGN */
+/*++++++++++++++++++++++++++
+NAVIGATION SECTION DESIGN
++++++++++++++++++++++++++++*/
 
 .header {
   width: 100%;
@@ -106,7 +109,9 @@ body {
   display: none;
 }
 
-/* HOME IMAGE SECTION DESIGN */
+/*++++++++++++++++++++++++++++
+HOME IMAGE SECTION DESIGN
+++++++++++++++++++++++++++++*/
 .home-image {
   position: relative;
   right: 0;
@@ -251,7 +256,9 @@ section {
   color: var(--main-color);
 }
 
-/* EDUCTION SECTION DESIGN  */
+/*+++++++++++++++++++++++
+EDUCTION SECTION DESIGN
+++++++++++++++++++++++++*/
 .education > .heading {
   margin-top: -3rem;
   margin-bottom: 5rem;
@@ -358,7 +365,9 @@ section {
   width: 100%;
 }
 
-/* SKILLS SECTION DESIGN */
+/*++++++++++++++++++++++
+SKILLS SECTION DESIGN
++++++++++++++++++++++++*/
 .skills > .heading {
   margin-top: -3rem;
   margin-bottom: 5rem;
@@ -477,7 +486,9 @@ section {
   width: 100%;
 }
 
-/* WORK SECTION DESIGN */
+/*++++++++++++++++++++++++++
+WORK SECTION DESIGN
+++++++++++++++++++++++++++*/
 #works {
   background: url(./IMAGES/Working-back.gif);
   min-height: 100%;
@@ -515,7 +526,9 @@ section {
   -webkit-text-stroke: 1px var(--main-color);
 }
 
-/* Contact section design */
+/*++++++++++++++++++++++++++
+Contact section design
++++++++++++++++++++++++++++*/
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
@@ -629,7 +642,9 @@ section {
   color: #4b7de0;
 }
 
-/* FOOTER SECTION DESIGN */
+/*++++++++++++++++++++++++
+FOOTER SECTION DESIGN
++++++++++++++++++++++++++*/
 
 .footer {
   text-align: center;
