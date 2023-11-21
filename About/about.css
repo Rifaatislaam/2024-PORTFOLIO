@@ -114,8 +114,6 @@ section {
   display: none;
 }
 
-
-
 /* ++++++++++++++++++++
  FOOTER SECTION DESIGN 
  +++++++++++++++++++++*/
@@ -148,3 +146,54 @@ section {
   font-size: 15px;
   transition: 0.5s;
 }
+
+/*---------------------- 
+HEADER SECTION DESIGN 
+-----------------------*/
+
+.about-header > .top > h1 {
+  font-size: 32px;
+}
+.about-header > .top > p {
+  font-size: 14px;
+}
+.about-header > .bottom > h3 {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 30px 25px;
+  text-align: justify;
+  line-height: 24px;
+}
+
+.about-header > .bottom > h3 > p {
+  line-height: 36px;
+}
+
+.about-header > .bottom {
+  margin-top: 35px;
+  border-left: 2.5px solid var(--main-color);
+  background-color: var(--secund-bg-color);
+  border-radius: 10px;
+}
+
+.about-header > .bottom > h3 > span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+/* <!-- -------------------
+    TECHNICAL SECTION DESIGN
+  ------------------------> */
+.technical-skill {
+  margin-top: -170px;
+}
+.technical-skill > .TS-top {
+  line-height: 36px;
+  border-bottom: 0.3px solid var(--main-color);
+ }
+ .technical-skill > .TS-top > h1 {
+  font-size: 32px;
+ }
+  .technical-skill > .TS-top > p {
+    font-size: 14px;
+  }
