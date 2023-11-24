@@ -190,10 +190,52 @@ HEADER SECTION DESIGN
 .technical-skill > .TS-top {
   line-height: 36px;
   border-bottom: 0.3px solid var(--main-color);
- }
- .technical-skill > .TS-top > h1 {
+}
+.technical-skill > .TS-top > h1 {
   font-size: 32px;
- }
-  .technical-skill > .TS-top > p {
-    font-size: 14px;
-  }
+}
+.technical-skill > .TS-top > p {
+  font-size: 14px;
+}
+.technical-container {
+  margin-top: 30px;
+}
+.technical-container > .tech-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+.technical-container > .tech-box .tech-min-box {
+  display: flex;
+  align-items: center;
+  justify-content: safe;
+  gap: 10px;
+  border-left: 2px solid var(--main-color);
+  border-radius: 5px;
+  background-color: var(--secund-bg-color);
+  padding: 15px 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.technical-container > .tech-box .tech-min-box > .tech-icon {
+  font-size: 35px;
+}
+.content > .head {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.content p {
+  font-size: 12px;
+}
+
+/* TECHNICAL HOVER EFFECT */
+.technical-container > .tech-box .tech-min-box:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  z-index: 1;
+  transition: 0.4s;
+  color: rgb(164, 105, 193);
+  border-color: rgb(164, 105, 193);
+}
+
