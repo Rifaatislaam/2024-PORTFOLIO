@@ -121,7 +121,6 @@ section {
 .footer {
   text-align: center;
   font-size: 15px;
-  margin-bottom: -30px;
 }
 .small-nav > ul {
   display: flex;
