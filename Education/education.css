@@ -145,3 +145,41 @@ section {
   font-size: 15px;
   transition: 0.5s;
 }
+
+/*+++++++++++++++++++++++ 
+HEADING SECTION DESIGN 
++++++++++++++++++++++++++*/
+.top-section > h1 {
+  font-size: 32px;
+}
+.edu-item {
+  padding: 30px 30px;
+  border-bottom: 2px solid var(--main-color);
+  transition: all ease-in-out;
+}
+.edu-item:hover {
+  border-bottom: 2px solid #b44a4a;
+  transition: 0.3s;
+}
+
+
+.edu-item > .clg-imag > img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.edu-item > .edu-content > h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.edu-item > .edu-content > h2 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.edu-item > .edu-content > p {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--main-color);
+}
