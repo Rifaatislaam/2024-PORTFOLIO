@@ -152,7 +152,7 @@ HEADING SECTION DESIGN
 .top-section > h1 {
   font-size: 32px;
 }
-.edu-item {
+/* .edu-item {
   padding: 30px 30px;
   border-bottom: 2px solid var(--main-color);
   transition: all ease-in-out;
@@ -160,8 +160,8 @@ HEADING SECTION DESIGN
 .edu-item:hover {
   border-bottom: 2px solid #b44a4a;
   transition: 0.3s;
-}
-
+} */
+/* ANIMATION - EDUCATION */
 
 .edu-item > .clg-imag > img {
   height: 80px;
