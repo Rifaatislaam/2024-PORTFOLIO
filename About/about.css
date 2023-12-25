@@ -244,9 +244,36 @@ HEADER SECTION DESIGN
 /* <!-- ++++++++++++++++++++++
  Timeline SECTION DESIGN
 ++++++++++++++++++++++++--> */
-.timeline{
+.TT-top {
+  line-height: 36px;
+  border-bottom: 0.3px solid var(--main-color);
+}
+.timeline {
   margin-top: -80px;
 }
 .TT-top {
   font-size: 14px;
+}
+
+.images > img {
+  height: 200px;
+  width: auto;
+  margin: 0 20px;
+}
+.images {
+  display: inline-block;
+  animation: 25s slides infinite linear;
+}
+.slides {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 40px 0;
+}
+/* Animation */
+@keyframes slides {
+  from{transform: translateX(0);}
+  to{transform: translateX(-100%);}
+}
+.slides:hover .images {
+  animation-play-state: paused;
 }
