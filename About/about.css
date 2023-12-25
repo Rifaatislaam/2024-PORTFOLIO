@@ -146,14 +146,16 @@ section {
   font-size: 15px;
   transition: 0.5s;
 }
-
+.header-top {
+  font-size: 30px;
+  color: transparent;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px var(--main-color);
+}
 /*---------------------- 
 HEADER SECTION DESIGN 
 -----------------------*/
 
-.about-header > .top > h1 {
-  font-size: 32px;
-}
 .about-header > .top > p {
   font-size: 14px;
 }
@@ -242,4 +244,9 @@ HEADER SECTION DESIGN
 /* <!-- ++++++++++++++++++++++
  Timeline SECTION DESIGN
 ++++++++++++++++++++++++--> */
-
+.timeline{
+  margin-top: -80px;
+}
+.TT-top {
+  font-size: 14px;
+}
