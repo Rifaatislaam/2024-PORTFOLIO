@@ -642,14 +642,30 @@ Contact section design
   color: #4b7de0;
 }
 
+.Built a{
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.Built a:hover {
+  color: var(--main-color);
+}
+
 /*++++++++++++++++++++++++
 FOOTER SECTION DESIGN
 +++++++++++++++++++++++++*/
+.footer-section {
+  border: 1px dashed var(--main-color);
+  height: 75px;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 .footer {
   text-align: center;
   font-size: 15px;
-  margin-bottom: -30px;
 }
 .small-nav > ul {
   display: flex;
