@@ -21,6 +21,9 @@
   <!-- HERE IS THE CUSTOM css LINK -->
   <link rel="stylesheet" href="./style.css">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     .heading {
       font-size: 30px;
       color: transparent;
@@ -51,14 +54,14 @@
     }
 
     .raw {
-      transition: all 0.3s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
 
     .raw:hover {
       transform: scale(1.03);
       z-index: 1;
-      transition: 0.2s;
-      color: rgb(164, 105, 193);
+      transition: 0.5s;
+      color: var(--main-color);
       border-color: rgb(164, 105, 193);
     }
 
