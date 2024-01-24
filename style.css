@@ -642,6 +642,9 @@ Contact section design
   color: #4b7de0;
 }
 
+/*++++++++++++++++++++++++
+FOOTER SECTION DESIGN
++++++++++++++++++++++++++*/
 .Built a{
   color: var(--text-color);
   display: flex;
@@ -653,9 +656,7 @@ Contact section design
   color: var(--main-color);
 }
 
-/*++++++++++++++++++++++++
-FOOTER SECTION DESIGN
-+++++++++++++++++++++++++*/
+
 .footer-section {
   border: 1px dashed var(--main-color);
   height: 75px;

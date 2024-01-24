@@ -114,14 +114,32 @@ section {
   display: none;
 }
 
-/* ++++++++++++++++++++
- FOOTER SECTION DESIGN 
- +++++++++++++++++++++*/
+/*++++++++++++++++++++++++
+FOOTER SECTION DESIGN
++++++++++++++++++++++++++*/
+
+.Built a{
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.Built a:hover {
+  color: var(--main-color);
+}
+
+
+.footer-section {
+  border: 1px dashed var(--main-color);
+  height: 75px;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 .footer {
   text-align: center;
   font-size: 15px;
-  margin-bottom: -30px;
 }
 .small-nav > ul {
   display: flex;
@@ -145,12 +163,6 @@ section {
   color: var(--main-color);
   font-size: 15px;
   transition: 0.5s;
-}
-.header-top {
-  font-size: 30px;
-  color: transparent;
-  letter-spacing: 1px;
-  -webkit-text-stroke: 1px var(--main-color);
 }
 /*---------------------- 
 HEADER SECTION DESIGN 
