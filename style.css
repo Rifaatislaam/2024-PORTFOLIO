@@ -279,7 +279,7 @@ EDUCTION SECTION DESIGN
 }
 
 .my-stack > h1 {
-  font-size: 25px;
+  font-size: 26px;
 }
 .color {
   color: var(--main-color);
@@ -287,7 +287,7 @@ EDUCTION SECTION DESIGN
   margin-left: 10px;
 }
 .my-stack p {
-  font-size: 13px;
+  font-size: 14.5px;
   text-align: justify;
 }
 
@@ -302,7 +302,7 @@ EDUCTION SECTION DESIGN
 .stack-items {
   width: 60px;
   height: 70px;
-  border: 1px solid red;
+  border: 1px solid blue;
   border-radius: 10px;
 
   display: flex;
@@ -354,7 +354,9 @@ EDUCTION SECTION DESIGN
   color: #e5532d;
 }
 .stack-items:hover .s-hover {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+  transform: rotate(45deg);
+
   z-index: 1;
   transition: 0.4s;
   cursor: pointer;
