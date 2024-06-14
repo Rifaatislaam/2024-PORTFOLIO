@@ -654,6 +654,9 @@ FOOTER SECTION DESIGN
 +++++++++++++++++++++++++*/
 .Built a {
   color: var(--text-color);
+}
+.Builts {
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -664,7 +667,6 @@ FOOTER SECTION DESIGN
 }
 
 .footer-section {
-  border: 1px dashed var(--main-color);
   height: 75px;
   align-items: center;
   margin-bottom: 10px;
