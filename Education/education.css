@@ -114,9 +114,28 @@ section {
   display: none;
 }
 
-/* ++++++++++++++++++++
- FOOTER SECTION DESIGN 
- +++++++++++++++++++++*/
+/*++++++++++++++++++++++++
+FOOTER SECTION DESIGN
++++++++++++++++++++++++++*/
+.Built a {
+  color: var(--text-color);
+}
+.Builts {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.Built a:hover {
+  color: var(--main-color);
+}
+
+.footer-section {
+  height: 75px;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 .footer {
   text-align: center;
