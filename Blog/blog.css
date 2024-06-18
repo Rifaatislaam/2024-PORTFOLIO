@@ -239,7 +239,7 @@ min-height: 80vh;
 
 .input_box input::placeholder {
   font-size: 20px;
-  color: var(--text-color);
+  color: rgb(90, 90, 90);
 }
 
 .input_box i {
