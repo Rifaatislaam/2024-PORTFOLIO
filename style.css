@@ -53,6 +53,7 @@ NAVIGATION SECTION DESIGN
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(50px);
 }
+header.ste
 .header::after {
   content: "";
   position: absolute;
