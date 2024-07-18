@@ -4,6 +4,8 @@ let navigation = document.querySelector('.navigation');
 
 iconMenu.onclick = () => {
   iconMenu.classList.toggle('bx-x');
+  navigation.classList.toggle("active");
+
 };
 
 
