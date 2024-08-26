@@ -707,7 +707,7 @@ BREAKING POINT
 @media (max-width: 896px) {
 
   section {
-    width: auto;
+    
   }
   #icon-menu {
     display: block;
