@@ -705,13 +705,11 @@ BREAKING POINT
 -------------------*/
 
 @media (max-width: 896px) {
-
-  body {
-    width: 80%;
-  }
   #icon-menu {
     display: block;
   }
+
+  /* NAVIGATION BAR STARTS HERE */
   .navigation {
     position: absolute;
     top: 100%;
@@ -749,5 +747,15 @@ BREAKING POINT
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
+  }
+
+  /* HOME SECTION STARTS HERE */
+  .home-image {
+    position: relative;
+    right: 0;
+    margin-top: 60px;
+    margin-right: 100px;
+    height: 400px;
+    width: 400px;
   }
 }
